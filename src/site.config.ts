@@ -4,7 +4,7 @@ const config: SiteConfig = {
   // Absolute URL to the root of your published site, used for generating links and sitemaps.
   site: 'https://github.com/kadzyly/blog-game-jams',
   // The name of your site, used in the title and for SEO.
-  title: 'Kadzy Ly - Game Jams',
+  title: 'Kadzy Ly',
   // The description of your site, used for SEO and RSS feed.
   description:
     'A coder-ready Astro blog theme with 59 of your favorite color schemes to choose from',
@@ -33,16 +33,16 @@ const config: SiteConfig = {
       url: '/',
     },
     {
-      name: 'About',
-      url: '/about',
+      name: 'CV',
+      url: '/cv',
     },
     {
-      name: 'Archive',
+      name: 'Portfolio',
       url: '/posts',
     },
     {
       name: 'GitHub',
-      url: 'https://github.com/kadzyly/blog-game-jams',
+      url: 'https://github.com/kadzyly',
       external: true,
     },
   ],
@@ -52,7 +52,7 @@ const config: SiteConfig = {
     mode: 'select',
     // The default theme identifier, used when themeMode is "select" or "light-dark-auto".
     // Make sure this is one of the themes listed in `themes` or "auto" for "light-dark-auto" mode.
-    default: 'dracula',
+    default: 'github-dark-high-contrast',
     // Shiki themes to bundle with the site.
     // https://expressive-code.com/guides/themes/#using-bundled-themes
     // These will be used to theme the entire site along with syntax highlighting.
